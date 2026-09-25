@@ -1,0 +1,8 @@
+.next/
+node_modules/
+out/
+build/
+package-lock.json
+next-env.d.ts
+# Pre-aggregated exhibit data, kept compact as generated.
+src/data/

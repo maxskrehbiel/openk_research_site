@@ -1,0 +1,39 @@
+{
+  "name": "openk_research_site",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "Source for openkresearch.com, the OpenK Research website.",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "preflight": "node scripts/preflight.mjs"
+  },
+  "dependencies": {
+    "next": "^16.3.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "resend": "^6.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitest/coverage-v8": "4.1.11",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.6",
+    "prettier": "3.9.9",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  }
+}

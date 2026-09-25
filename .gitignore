@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.*
+!.env.example
+.contact-sink.log
+*.log
+.DS_Store
+next-env.d.ts
+tsconfig.tsbuildinfo
+.vercel
+coverage/
+coverage.xml
+.idea/
+.vscode/
